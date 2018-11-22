@@ -1,0 +1,25 @@
+{
+  "name": "dev-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:scaljeri/dev-server.git",
+  "author": "Lucas Calje <lucas@calje.eu>",
+  "license": "MIT",
+  "scripts": {
+    "start": "./node_modules/.bin/ts-node ./src/index.ts"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "express-static": "^1.2.6",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "@types/cookie-parser": "^1.4.1",
+    "@types/errorhandler": "^0.0.32",
+    "@types/method-override": "^0.0.31",
+    "@types/morgan": "^1.7.35",
+    "chokidar-cli": "^1.2.1",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.1.6"
+  }
+}
